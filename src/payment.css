@@ -1,0 +1,86 @@
+.payment{
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+  
+   
+}
+
+.payment_con > h1{
+    text-align: center;
+    margin: 0 ;
+    width: 105%;
+    padding: 20px;
+    font-weight: 400;
+    background-color: rgb(223, 226, 226);
+    border-bottom: 1px solid lightgray;
+
+}
+.payment_con > h1 > a{
+    text-decoration: none;
+}
+.payment_sec{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    bottom: 10px;
+    width: 100%;
+    margin: 0 20px;
+    border-bottom:1px solid lightgray ;
+}
+.payment_title{
+    flex: 0.2;
+}
+.payment_address{
+    flex: 0.8;
+    width: 100%;
+    padding-left:25px ;
+}
+
+.payment_items{
+    flex: 0.8;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .payment {
+      width: 500px;
+      background-color: rgb(255, 254, 254);
+    }
+    .payment_items{
+        width: 500px;
+        background-color: white;
+    }
+    .payment_con{
+        width: 530px;
+    }
+   
+}
+ .payment_items,.payment_address{
+    flex: 0.8;
+}
+.payment_detail{
+    flex: 0.69;
+}
+.payment_detail{
+    width: 100%;
+    margin-left: 15px;
+}
+.print_payment{
+    width: 300px;
+    padding: 17px 23px;
+   margin: 10px 0;
+    border: 1px solid lightgray;
+}
+.print_payment > button{
+    margin-top:8px;
+    width: 100%;
+    padding: 8px ;
+    background-color: #f0c14b ;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+
+}

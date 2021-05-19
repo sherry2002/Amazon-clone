@@ -1,0 +1,50 @@
+.checkout > img{
+    height: 100px;
+    width: 100% ;
+    display: flex;
+    flex: 1;
+   
+}
+.check{
+    display: flex;
+    padding: 20px;
+    height: max-content;
+    background-color: white;
+  width: 100%;
+  
+    
+
+}
+.width{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.check_title{
+    margin-right: 10px ;
+    padding: 10px;
+    border-bottom: 1px solid rgb(190, 188, 188) ;
+}
+
+
+.ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .check {
+      width: 460px;
+      background-color: rgb(255, 254, 254);
+    
+    }
+    .itms{
+        width: 500px;
+        background-color: rgb(255, 254, 254);
+    }
+    .width{
+        width: 500px;
+    }
+    
+   
+}

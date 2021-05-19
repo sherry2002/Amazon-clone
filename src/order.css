@@ -1,0 +1,38 @@
+.order1{
+    padding:20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+   
+    min-width: 330px;
+  /* max-width: 300px; */
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+    
+}
+
+.orderstyle{
+   
+    /* width: 100%; */
+  min-width:100px ;
+ padding-right: 10px;
+    max-width: max-content;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .order1 {
+      width:400px;
+     
+    }
+   
+}
+
+@media screen and (max-width: 650px) {
+.orderstyle{
+    width:320px;
+}
+}
