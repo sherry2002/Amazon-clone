@@ -23,7 +23,7 @@ function Checkoutproduct({id ,title,price, ratings, image}) {
               <div className='product_info'>   
             
 
-             <p>{title}</p>
+             <p className='desc'>{title}</p>
               <p>
                   <small>$</small> 
                  <strong>{price}</strong> </p>

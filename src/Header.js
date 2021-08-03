@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
@@ -30,23 +31,20 @@ function Header() {
         </div>  
 
         <div className='header_nav'>
-            <Link to={!user && '/login'}>
+            <Link className='link' to={!user && '/login'}>
             <div onClick={handleAuth} className='header_option'>
                <span className='header_op1'>Hi {user ? user.email:'Guest'}</span>
                <span className='header_op2'>{ user ? 'Sign Out' : 'Sign In'}</span>
            </div>
             </Link>
-           <Link to='/orders'>
+           <Link className='link' to='/orders'>
            <div className='header_option'>
                <span className='header_op1'>returns</span>
                <span className='header_op2'>& Orders</span>
            </div>
            </Link>
-           <div className='header_option'>
-               <span className='header_op1'>Your</span>
-               <span className='header_op2'>Prime</span>
-           </div>
-           <Link to="/checkout">
+          
+           <Link className='link' to="/checkout">
            <div className='basket'>
            <ShoppingBasketIcon className='basket1'></ShoppingBasketIcon>
            <span className='header_op order_items'>{basket?.length}</span>
